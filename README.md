@@ -17,3 +17,5 @@ Mi computador
 * Cantidad de nucleos: 4
 
 * Cantidad de procesadores lógicos (hilos): 8
+
+* Cantidad de discos: 1
