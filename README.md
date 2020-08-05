@@ -23,7 +23,7 @@
   * Total:12 GB (RAM)
   * Tipo memoria: DDR4
   * Velocidad: 2400 MHz
-  * Número de (SO)DIMM: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  * Número de (SO)DIMM: 2
 * Tarjeta Gráfica
   * Marca / Modelo: Intel(R) UDH Graphics 620
   * Memoria total aprox: 6197 MB
