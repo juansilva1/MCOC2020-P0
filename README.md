@@ -13,14 +13,15 @@
   * Número de núcleos: 4
   * Número de hilos: 8
   * Arquitectura: x64-based PC
-  * Set de instrucciones:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@q
+  * Set de instrucciones:MMX, SSE, SSE2, SSE3, SSSE3, SSE$.1, SSE$.2, EM64T, VT-x, AES, AVX, AVX2, FMA3
 * Tamaño de las caches del procesador
-  * Caché L1: 256 kB 
-  * Caché L2: 1,0 MB
-  * Caché L3: 8,0 MB
+  * L1d: 32 KB
+  * L1i: 32 KB
+  * L2: 256 KB
+  * L3: 8,0 MB
 * Memoria
   * Total:12 GB (RAM)
-  * Tipo memoria: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  * Tipo memoria: DDR4
   * Velocidad: 2400 MHz
   * Número de (SO)DIMM: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 * Tarjeta Gráfica
@@ -30,7 +31,7 @@
   * Memoria Compartida: 6069 MB
   * Resolución: 1366 x 768
 * Disco 1:
-  * Marca:@@@@@@@@@@@@@@@@@@
+  * Marca/Modelo:WDC PC SN520 SDAPNUW-512G-1014
   * Tipo: SSD
   * Tamaño: 512 GB
   * Particiones: 4
