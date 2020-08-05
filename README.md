@@ -13,7 +13,7 @@
   * Número de núcleos: 4
   * Número de hilos: 8
   * Arquitectura: x64-based PC
-  * Set de instrucciones:MMX, SSE, SSE2, SSE3, SSSE3, SSE$.1, SSE$.2, EM64T, VT-x, AES, AVX, AVX2, FMA3
+  * Set de instrucciones:MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES, AVX, AVX2, FMA3
 * Tamaño de las caches del procesador
   * L1d: 32 KB
   * L1i: 32 KB
