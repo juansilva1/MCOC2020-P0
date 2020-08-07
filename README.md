@@ -42,3 +42,9 @@
 * Proveedor interner: VTR Doble Pack
 # Desempeño MATMUL
 
+
+
+hola
+
+
+![Número de procesadores funcionando](https://user-images.githubusercontent.com/69159364/89663772-0ea2ae00-d8a4-11ea-8499-d0a960805093.JPG)
