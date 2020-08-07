@@ -42,10 +42,20 @@
 * Proveedor interner: VTR Doble Pack
 # Desempeño MATMUL
 
+![Gráfico](https://user-images.githubusercontent.com/69159364/89664038-883a9c00-d8a4-11ea-9ddd-a736d8162ebf.JPG)
 
+==> Si se desea graficar un número distinto de corridas, se deben cambiar las lineas 37 y 61, el i < (número de corridas que desees + 1)
 
-
-hola
-
+1) Los gráficos difieren en que: 
+-	El del profesor presenta una “cresta” en el intervalo N perteneciente [50,100], mientras que en mi gráfico esa cresta se forma en el intervalo N perteneciente [20,50]. 
+-	En el grafico del profesor, con matrices mayores a N = 50 se demora mas de 0.1 ms, mientras que eso a mi me ocurre con matrices mayores a N = 100.
+-	Con matrices de N = 10000 el grafico del profesor se completa antes que mi gráfico.
+-	Con respecto al grafico de “uso de memoria”, lo único en que difieren ambos gráficos en la línea punteada negra, en la que mi computador posee menor memoria RAM, siendo esta de 12 GB.
+2) Estas diferencias se pueden deber a los procesadores de cada computador, cuanto se demoran en funcionar en conjunto (por eso existen “crestas”, pues pasada esta cresta otros procesadores comienzan a trabajar, para agilizar el proceso y/o los cálculos). También se debe a la cantidad de memoria RAM que posea cada computador.
+3) El grafico de uso de memoria es lineal pues se obtiene de un cálculo matemático: (número N al cuadrado) * (3 matrices) * (8 bytes). Es por esto que el uso de memoria solo dependerá del tamaño de N, siendo N la cantidad de columnas o de filas (matriz cuadrada). 
+Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la ejecución el computador comienza a utilizar un numero de procesadores (generalmente menor a N), por lo que realiza los cálculos que puede hasta que empieza a ponerse más “lento”, luego de esto se comienzan a utilizar más procesadores, con lo cual el tiempo vuelve a disminuir, finalmente cuando están trabajando todos los procesadores, la grafica se comienza a comportar de una forma más lineal.
+4) Estoy utilizando la versión 3.7 de python.
+5) Estoy utilizando la versión 1.18.1 de numpy.
+6) Si, se llegan a utilizar los 8 procesadores, adjunto la imagen a continuación.
 
 ![Número de procesadores funcionando](https://user-images.githubusercontent.com/69159364/89663772-0ea2ae00-d8a4-11ea-8499-d0a960805093.JPG)
