@@ -78,3 +78,4 @@ Por otro lado el tiempo presenta leves cambios en la pendiente entre matrices de
 5) Estoy utilizando la versión 1.18.1 de numpy.
 6) Si, se llegan a utilizar los 8 procesadores, adjunto la imagen a continuación.
 
+![Número de procesadores funcionando1(N500)](https://user-images.githubusercontent.com/69159364/89714274-7243de80-d96b-11ea-9cc7-78b9e9a5b593.JPG)
