@@ -59,3 +59,5 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 6) Si, se llegan a utilizar los 8 procesadores, adjunto la imagen a continuación.
 
 ![Número de procesadores funcionando](https://user-images.githubusercontent.com/69159364/89663772-0ea2ae00-d8a4-11ea-8499-d0a960805093.JPG)
+
+# Desempeño MIMATMUL
