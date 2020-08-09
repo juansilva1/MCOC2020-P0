@@ -67,11 +67,9 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 ==> Si se desea graficar un número distinto de corridas, se deben cambiar las lineas 40 y 64, el i < (número de corridas que desees + 1)
 
 1) Los gráficos difieren en que: 
--	El del profesor presenta una “cresta” en el intervalo N perteneciente [50,100], mientras que en mi gráfico esa cresta se forma en el intervalo N perteneciente [20,50]. 
--	En el grafico del profesor, con matrices mayores a N = 50 se demora mas de 0.1 ms, mientras que eso a mi me ocurre con matrices mayores a N = 100.
--	Con matrices de N = 10000 el grafico del profesor se completa antes que mi gráfico.
+-	Mi gráfico de "Tiempo trascurrido" presenta una menor dispercion inicial en cuanto al tiempo. 
 -	Con respecto al grafico de “uso de memoria”, lo único en que difieren ambos gráficos en la línea punteada negra, en la que mi computador posee menor memoria RAM, siendo esta de 12 GB.
-2) Estas diferencias se pueden deber a los procesadores de cada computador, cuanto se demoran en funcionar en conjunto (por eso existen “crestas”, pues pasada esta cresta otros procesadores comienzan a trabajar, para agilizar el proceso y/o los cálculos). También se debe a la cantidad de memoria RAM que posea cada computador.
+2) Estas diferencias se pueden deber a los procesadores de mi computador comienzan a trabajar al mismo tiempo para esta operacion, o sea que la recta formada para cada corrida siempre va a tener pendiente positiva. En el caso del grafico de Felipe al parecer en una de las corridas parten trabajando menos procesadores y luego comienza a funcionar el resto. También se debe a la cantidad de memoria RAM que posea cada computador.
 3) El grafico de uso de memoria es lineal pues se obtiene de un cálculo matemático: (número N al cuadrado) * (3 matrices) * (8 bytes). Es por esto que el uso de memoria solo dependerá del tamaño de N, siendo N la cantidad de columnas o de filas (matriz cuadrada). 
 Por otro lado el tiempo presenta leves cambios en la pendiente entre matrices de tamaño 2 al 20, a diferencia del codigo anterior ("timing_matmul"), todos los procesadores parten a trabajar desde el comienzo, por lo que la curva obtenida se asemeja mucho más a una recta (lineal).
 4) Estoy utilizando la versión 3.7 de python.
