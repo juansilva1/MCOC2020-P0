@@ -74,6 +74,6 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 Por otro lado el tiempo presenta leves cambios en la pendiente entre matrices de tamaño 2 al 20, a diferencia del codigo anterior ("timing_matmul"), todos los procesadores parten a trabajar desde el comienzo, por lo que la curva obtenida se asemeja mucho más a una recta (lineal).
 4) Estoy utilizando la versión 3.7 de python.
 5) Estoy utilizando la versión 1.18.1 de numpy.
-6) Si, se llegan a utilizar los 8 procesadores, adjunto la imagen a continuación.
+6) Si, se llegan a utilizar los 8 procesadores pero estos trabajan considerablemente "más relajados" que para el codigo anterior ("matmul"), esto se puede deber a que la operacion empleada para la multiplicacion de matrices no es complicada, pero se tiene que repetir muchas veces (son 3 for anidados, por lo que es realmente ineficiente). adjunto la imagen a continuación.
 
 ![Número de procesadores funcionando2(N500)](https://user-images.githubusercontent.com/69159364/89744050-0058bb80-da77-11ea-88dc-10102ab8360f.JPG)
