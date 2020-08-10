@@ -65,6 +65,7 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 ![mimatmul](https://user-images.githubusercontent.com/69159364/89746444-a44a6300-da87-11ea-8f6c-a9774ccedda5.png)
 
 ==> Si se desea graficar un número distinto de corridas, se deben cambiar las lineas 40 y 64, el i < (número de corridas que desees + 1)
+==> Para este gráfico posee un N = 1000 pues se demora demasido (entre 20-40 para N = 1000).
 
 1) Los gráficos difieren en que: 
 -	Mi gráfico de "Tiempo trascurrido" presenta una menor dispercion inicial en cuanto al tiempo. 
