@@ -68,7 +68,7 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 
 ==> Para este gráfico posee un N = 1000 pues se demora demasido (entre 20-40 para N = 1000).
 
-1) Los gráficos difieren en que: 
+1) Los gráficos (de esta ves) difieren en que: 
 -	Mi gráfico de "Tiempo trascurrido" presenta una menor dispercion inicial en cuanto al tiempo. 
 -	Con respecto al grafico de “uso de memoria”, lo único en que difieren ambos gráficos en la línea punteada negra, en la que mi computador posee menor memoria RAM, siendo esta de 12 GB.
 2) Estas diferencias se pueden deber a los procesadores de mi computador comienzan a trabajar al mismo tiempo para esta operacion, o sea que la recta formada para cada corrida siempre va a tener pendiente positiva. En el caso del grafico de Felipe al parecer en una de las corridas parten trabajando menos procesadores y luego comienza a funcionar el resto. También se debe a la cantidad de memoria RAM que posea cada computador.
@@ -79,3 +79,6 @@ Por otro lado el tiempo presenta leves cambios en la pendiente entre matrices de
 6) Si, se llegan a utilizar los 8 procesadores pero estos trabajan considerablemente "más relajados" que para el codigo anterior ("matmul"), esto se puede deber a que la operacion empleada para la multiplicacion de matrices no es complicada, pero se tiene que repetir muchas veces (son 3 for anidados, por lo que es realmente ineficiente). adjunto la imagen a continuación.
 
 ![Número de procesadores funcionando2(N500)](https://user-images.githubusercontent.com/69159364/89744050-0058bb80-da77-11ea-88dc-10102ab8360f.JPG)
+
+Diferencia con respecto a los graficos de la entrega 2 y la 3:
+- los graficos de la entrega 2 ocupan programacion de bajo nivel (numpy), por lo que se obtienen varias veces más rapidas que los graficos de la entrega 3, los cuales se hacen en python, por lo que se ocupa programacion de alto nivel siendo así un proceso mucho más lento.
