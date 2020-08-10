@@ -62,7 +62,7 @@ Por otro lado el tiempo no es lineal, esto ocurre por que al principio de la eje
 
 # Desempeño MIMATMUL
 
-![mimatmul](https://user-images.githubusercontent.com/69159364/89746444-a44a6300-da87-11ea-8f6c-a9774ccedda5.png)
+![mimatmul](https://user-images.githubusercontent.com/69159364/89794586-40f71a00-daf5-11ea-9f06-434e3c237762.png)
 
 ==> Si se desea graficar un número distinto de corridas, se deben cambiar las lineas 40 y 64, el i < (número de corridas que desees + 1).
 
