@@ -12,9 +12,11 @@ import numpy as np
 import matplotlib.ticker as ticker
 import matplotlib.pyplot as plt
 from time import perf_counter
+from mimatmul import mimatmul
+
 def datos(numero):
     
-    lista_N=[2,5,10,12,15,20,30,40,45,50,55,60,75,100,125,160,200,250,350,500,600,800,1000,2000,5000,10000]
+    lista_N=[2,5,10,12,15,20,30,40,45,50,55,60,75,100,125,160,200,250,350,500]
     lista_final_tiempo=[]
     archivo_str='datos_'+str(numero)+'.txt'
     archivo=open(archivo_str,'w')
@@ -25,16 +27,17 @@ def datos(numero):
         B = np.random.rand(N,N)
         
         t1 = perf_counter()
-        C=A@B
+        C=mimatmul(A,B)
         t2 = perf_counter()
     
         dt = t2 - t1
         palabra=str(str(dt)+','+str(N)+'\n')
         archivo.write(palabra)
         lista_tiempo.append(dt)
+        archivo.flush()
     archivo.close()
 i=1
-while i<11:#funciona para 10 archivos
+while i<11:
     datos(i)
     i+=1
 
@@ -58,7 +61,7 @@ fig,ax =  plt.subplots(2,1)
 # ax2= fig.add_axes([0.1, 0.1, 0.8, 0.8])
 # plt.grid()
 i=1
-while i<11:#funciona para 10 archivos
+while i<11:
     # print('\n',i,'\n')
     plt.grid()
     datos=lectura_de_archivos(i)
