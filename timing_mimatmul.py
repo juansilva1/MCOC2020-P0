@@ -71,7 +71,7 @@ while i<11:
     i+=1
 
     
-ax[0].set_ylabel('Tiempo transcurrido (s)')
+ax[0].set_ylabel('Tiempo transcurrido')
 ax[0].set_title('Rendimiento A@B')
 ax[0].set_xscale('log')
 ax[0].set_yscale('log')
@@ -98,7 +98,7 @@ for i in lista_N:
     # lista_B=
 ax[1].plot([0,20000],[12000000000,12000000000],'--k')
 ax[1].plot(lista_N,lista_B,'-o')    
-ax[1].set_ylabel('Uso memoria (s)')
+ax[1].set_ylabel('Uso memoria')
 ax[1].set_xlabel('Tamaño matriz N')
 # ax[1].set_title('Rendimiento A@B')
 ax[1].set_xscale('log')
@@ -115,4 +115,5 @@ plt.tight_layout()
 plt.savefig("mimatmul.png")
 
 # En la consola aparece que no son validos los limites, por lo que los ignora, este codigo crea archivos, los lee y grafica.
-# Entrega2 de las 12:59
+# Entrega3 lunes 10 de agosto a las 23:59.
+# Modifique los titulos de los ejes por aquí (directo en el github), para no correrlo de nuevo.
