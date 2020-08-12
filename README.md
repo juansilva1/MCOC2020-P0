@@ -15,9 +15,8 @@
   * Arquitectura: x64-based PC
   * Set de instrucciones:MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES, AVX, AVX2, FMA3
 * Tamaño de las caches del procesador
-  * L1d: 32 KB
-  * L1i: 32 KB
-  * L2: 256 KB
+  * L1: 256 KB
+  * L2: 1,0 MB (lo modifiqué el día 12-08-2020)
   * L3: 8,0 MB
 * Memoria
   * Total:12 GB (RAM)
