@@ -153,3 +153,6 @@ Tomando en cuanta lo anterior. Los datos que “pesen” más serán los que cor
 ![scipy_true_single](https://user-images.githubusercontent.com/69159364/90074881-1a3e0c80-dcca-11ea-80b6-34229ddafcef.png)
 
 ![scipy_true_double](https://user-images.githubusercontent.com/69159364/90074900-275afb80-dcca-11ea-9b52-ca3fb0063a92.png)
+
+## 3 Gráficos de los Procesadores (en canvas no queda claro si es necesario subirlos)
+
