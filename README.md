@@ -130,3 +130,26 @@ Tomando en cuanta lo anterior. Los datos que “pesen” más serán los que cor
 
 ## 9 Gráficos (en canvas no queda claro si es necesario subirlos)
 
+### numpy.linalg.inv
+
+![numpy_half](https://user-images.githubusercontent.com/69159364/90074710-c59a9180-dcc9-11ea-8868-4a2d507c731c.png)
+
+![numpy_single](https://user-images.githubusercontent.com/69159364/90074726-cdf2cc80-dcc9-11ea-93d4-00c427fd6459.png)
+
+![numpy_double](https://user-images.githubusercontent.com/69159364/90074743-d814cb00-dcc9-11ea-81b8-c58937dc2610.png)
+
+### scipy.linalg.inv con overwrite_a=False
+
+![scipy_false_half](https://user-images.githubusercontent.com/69159364/90074765-e4008d00-dcc9-11ea-9c90-90acc577dd19.png)
+
+![scipy_false_single](https://user-images.githubusercontent.com/69159364/90074784-ebc03180-dcc9-11ea-8704-abd6f3ab8ff6.png)
+
+![scipy_false_double](https://user-images.githubusercontent.com/69159364/90074808-f7135d00-dcc9-11ea-98c2-5853452fac35.png)
+
+### scipy.linalg.inv con overwrite_a=True
+
+![scipy_true_half](https://user-images.githubusercontent.com/69159364/90074862-10b4a480-dcca-11ea-862b-c5c8c16145be.png)
+
+![scipy_true_single](https://user-images.githubusercontent.com/69159364/90074881-1a3e0c80-dcca-11ea-80b6-34229ddafcef.png)
+
+![scipy_true_double](https://user-images.githubusercontent.com/69159364/90074900-275afb80-dcca-11ea-9b52-ca3fb0063a92.png)
