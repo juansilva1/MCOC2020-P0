@@ -156,3 +156,18 @@ Tomando en cuanta lo anterior. Los datos que “pesen” más serán los que cor
 
 ## 3 Gráficos de los Procesadores (en canvas no queda claro si es necesario subirlos)
 
+### Procesadores datos tipo np.half (casos 1-2-3 ordenados de izquierda a derecha)
+
+![Procesadores half casos 1-2-3](https://user-images.githubusercontent.com/69159364/90075633-e4018c80-dccb-11ea-8dd2-74f1cfaa4344.JPG)
+
+### Procesadores datos tipo np.single (casos 1-2-3 ordenados de izquierda a derecha)
+
+![Procesadores single casos 1-2-3](https://user-images.githubusercontent.com/69159364/90075704-085d6900-dccc-11ea-8a28-bcc7aec2ebb0.JPG)
+
+### Procesadores datos tipo np.double (casos 1-2-3 ordenados de izquierda a derecha)
+
+![Procesadores double casos 1-2-3](https://user-images.githubusercontent.com/69159364/90075714-0b585980-dccc-11ea-9a5e-25a4332ebf61.JPG)
+
+Se puede apreciar en los gráficos anteriores:
+- los casos 1 (utilizando numpy.linalg.inv) ocupan menos CPU que los otros 2 casos.
+- el caso 2 (utilizando scipy.linalg.inv con overwrite_a=False) ocupa el mayor porcentaje de CPU.
