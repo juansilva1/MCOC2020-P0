@@ -81,3 +81,52 @@ Por otro lado el tiempo presenta leves cambios en la pendiente entre matrices de
 
 Diferencia con respecto a los graficos de la entrega 2 y la 3:
 - los graficos de la entrega 2 ocupan programacion de bajo nivel (numpy), por lo que se obtienen varias veces más rapidas que los graficos de la entrega 3, los cuales se hacen en python, por lo que se ocupa programacion de alto nivel siendo así un proceso mucho más lento.
+
+# Entrega4
+
+En mi Sistema no se alcanza a notar un cambio significativo al momento de utilizar “overwrite_a=True” de “scipy.linalg.inv”. (al menos hasta el N =2000)
+Los tamaños en memoria para cada uno de estos tipos de datos en Python para mi sistema son de:
+-	np.half = 2 bytes.
+-	np.single = 4 bytes.
+-	np.double = 8 bytes.
+-	np.longdouble = 8 bytes.
+==> Se puede apreciar que np.double es de un tipo muy similar a np.longdouble, por lo que se mostraran solo 9 programas (se considerara el caso de double=longdouble esta decisión la tome por que el profesor me dijo que graficara 9 gráficos en vez de 12).
+## Comparación en cuanto tipo de datos:
+Al ver los gráficos y teniendo en cuenta lo anterior el uso de memoria sigue siendo lineal para los distintos tipos de datos.
+
+En cuanto al uso de memoria, los programas que utilizan datos del tipo “np.half” emplean menos memoria, seguidos de los que tienen datos del tipo “np.single” por ultimo los que más utilizan memoria son los programas que utilizan datos de tipo “np.double” y “np.longdouble”.
+
+En cuanto al tiempo transcurrido los datos de tipo “np.double” son en algunos casos (caso 1, “numpy.linalg.inv”) levemente mayores que los datos de tipo “np.single” y “np.half” y en los casos 2 y 3 ya se puede apreciar una diferencia más significativa (“np.double”>” np.single” y “np.single”).
+
+## Comparación en cuanto tipo de función empleada:
+Para mi sistema y la versión de Python que estoy utilizando, la función que se desempeña de mejor forma para matrices de “grandes dimensiones” es la función “scipy.linalg.inv”.
+
+Nota: para los cálculos del uso de memoria se consideran 2 matrices. Este número se obtuvo a través de la división de la cantidad de memoria empleada para invertir una matriz de N = 10000 y la memoria teórica.
+
+La cantidad de memoria se puede ver en “administrador de tareas” > “procesos” > se busca la ventana de Python que más utilice memoria mientras se ejecuta el programa (sin considerar la creación de gráficos, pues estos añaden mucho uso de memoria).
+
+El resultado de esta división es muy probable que sea con decimales, ósea es muy difícil obtener un numero entero, por lo que se aproxima para abajo. A continuación menciono el número de matrices necesarias para invertir una matriz con funciones distintas:
+
+- numpy.linalg.inv => 4 matrices
+- scipy.linalg.inv con overwrite=False => 2 matrices
+- scipy.linalg.inv con overwrite=True => 2 matrices
+
+1)	Con lo anterior asumo que “scipy.linalg.inv” calcula la inversa mediante la adjunción (método de Cholesky)
+Mientras que “numpy.linalg.inv” utiliza descomposición de valores singulares (A = UΣVT)
+
+2)	Consideraciones: tengo 
+
+-	Caché L1: 256 kB
+-	Caché L2: 1,0 MB
+-	Caché L3: 8,0 MB
+-	 RAM: 12 GB
+-	Disco SSD: 512 GB
+
+Mientras más arriba se encuentre en la lista, mayor será su capacidad de procesamiento de datos (aproximadamente cada vez que uno baja un nivel, se vuelve 10 veces más lento).
+
+Esto me dice que los primeros cálculos de las matrices se hacen de forma casi inmediata para memorias menores a los 9.256 MB pues estas son las memorias más rápidas, mientras que, si la matriz presenta un N tan grande que es capaz de superar los 12 GB de RAM, esto hará que todos los cálculos sean extremadamente lentos, pues estamos hablando de que los cálculos se ralentizaron por 10^-4.
+
+Tomando en cuanta lo anterior. Los datos que “pesen” más serán los que correrán el riesgo de pasar sobre los 12 GB de RAM, por esto mismo y para acelerar los cálculos emplee un N_max = 2000. Con esto los cálculos se llevan a cabo de forma rápida y sin ocupar un exceso de memoria.
+
+## 9 Gráficos (en canvas no queda claro si es necesario subirlos)
+
