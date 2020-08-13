@@ -128,6 +128,8 @@ Esto me dice que los primeros cálculos de las matrices se hacen de forma casi i
 
 Tomando en cuanta lo anterior. Los datos que “pesen” más serán los que correrán el riesgo de pasar sobre los 12 GB de RAM, por esto mismo y para acelerar los cálculos emplee un N_max = 2000. Con esto los cálculos se llevan a cabo de forma rápida y sin ocupar un exceso de memoria.
 
+EL paralelismo funciona en llenar los almacenadores de memoria, primero se van llenando los más rapidos (caché) y luego los más lentos, es por esto que si se entrega un tipo de dato mas "pesado" como lo es el np.double, este sera más lento que otros datos, pues ocupa más memoria, el cual si se pasa de la memoria RAM, se vuelve lentisimo.
+
 ## 9 Gráficos (en canvas no queda claro si es necesario subirlos)
 
 ### numpy.linalg.inv
