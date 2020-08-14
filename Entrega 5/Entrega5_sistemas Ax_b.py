@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from time import perf_counter
 from scipy import sparse
 from numpy import float32
-
+# Los archivos de texto generaros tienen el orden (tiempo,N) 
 archivo_str=['A_invB_inv.txt','A_invB_npSolve.txt']
 lista_N=[2,5,10,12,15,20,30,40,45,50,55,60,75,100,125,160,200,250,350,500,600,800,1000,2000,5000,10000]
 
