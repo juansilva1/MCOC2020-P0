@@ -175,4 +175,7 @@ Se puede apreciar en los gráficos anteriores:
 - el caso 2 (utilizando scipy.linalg.inv con overwrite_a=False) ocupa el mayor porcentaje de CPU.
 
 # Entrega 5
+
+![Grafico Ax_b 2 funciones](https://user-images.githubusercontent.com/69159364/90295969-48515700-de58-11ea-8c20-3527f447a637.png)
+
 Por lo general la funcion A_invB_npSolve.txt es más eficiente que A_invB_inv.
