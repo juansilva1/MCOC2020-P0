@@ -173,3 +173,6 @@ EL paralelismo funciona en llenar los almacenadores de memoria, primero se van l
 Se puede apreciar en los gráficos anteriores:
 - los casos 1 (utilizando numpy.linalg.inv) ocupan menos CPU que los otros 2 casos.
 - el caso 2 (utilizando scipy.linalg.inv con overwrite_a=False) ocupa el mayor porcentaje de CPU.
+
+# Entrega 5
+Por lo general la funcion A_invB_npSolve.txt es más eficiente que A_invB_inv.
