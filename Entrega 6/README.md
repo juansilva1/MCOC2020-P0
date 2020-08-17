@@ -36,7 +36,7 @@ Para matrices de tamaño 100 <= N <= 10000:
 
 ### Grupo pos:
 
-
+![Grafico pos](https://user-images.githubusercontent.com/69159364/90395666-e1ec5480-e062-11ea-9232-b0526d5f9134.png)
 
 -	Por lo general las funciones “A_invB_spSolve_pos” y “A_invB_spSolve_pos_overwrite” son muy similares, siendo la que utiliza “overwrite=True” en un principio (N < 10) bastante más eficiente que la otra función, pero para matrices de mayor tamaño se comportan prácticamente iguales.
 
