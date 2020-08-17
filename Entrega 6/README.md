@@ -4,7 +4,7 @@
 
 Tras comparar 9 funciones, se obtiene el siguiente gráfico:
 
-
+![Grafico Ax_b  performance](https://user-images.githubusercontent.com/69159364/90395211-288d7f00-e062-11ea-87d9-9c84252a4b85.png)
 
 Procederé a ser una comparación más en detalle, primero comparando por grupos de 2-3 funciones. Para este análisis se toman en cuenta 10 corridas por función (se utilizan en el promedio), para obtener datos más exactos.
 
