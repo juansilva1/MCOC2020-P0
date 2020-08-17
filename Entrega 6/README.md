@@ -16,7 +16,9 @@ Para matrices de tamaño N < 100:
 -	La función que resuelve el problema de forma más eficiente es “A_invB_npSolve”, mientras que la más ineficiente es “A_invB_spSolve”.
 
 Esto es distinto a lo esperado, pues en entregas anteriores, las funciones que usaban la librería scipy eran las que resultaban ser más eficientes. Lo anterior se puede deber a que para matrices “Pequeñas”, scipy hace más operaciones para resolver este tipo de problemas.
+
 Para matrices de tamaño 100 <= N <= 10000:
+
 -	Pasado este punto, la función “A_invB_spSolve” se comporta de forma similar a la “A_invB_npSolve”, siendo estas 2 las funciones más eficientes para matrices de este tamaño.
 -	Pasado este punto la función “A_invB_inv” pasa a ser la más ineficiente. Esto se puede deber a que para esta función se realiza la operación de invertir y multiplicar, por lo que al tener 2 matrices “muy grandes”, estos cálculos se vuelven más lentos.
 
