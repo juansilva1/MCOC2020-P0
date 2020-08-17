@@ -47,4 +47,4 @@ Para este análisis se toman en cuenta 5 corridas por función (se utilizan en e
 -	Para matrices con N < 50 la función “A_invB_npSolve” es la más eficiente. Pasado este punto otras funciones pasan a ser más eficientes.
 -	Para matrices con N > 1000 la función más eficiente es “A_invB_spSolve_pos_overwrite”.
 
-==> El funcionamiento de los procesadores para los 4 graficos extra se encuentran en la carpeta "Extra", los procesadores para el gráfico final (9 funciones) se encuentra en la carpeta "Entrega 6".
+==> El funcionamiento de los procesadores para los 4 graficos extras se encuentran en la carpeta "Extra".
