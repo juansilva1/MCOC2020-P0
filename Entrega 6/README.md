@@ -40,7 +40,7 @@ Para matrices de tamaño 100 <= N <= 10000:
 
 -	Por lo general las funciones “A_invB_spSolve_pos” y “A_invB_spSolve_pos_overwrite” son muy similares, siendo la que utiliza “overwrite=True” en un principio (N < 10) bastante más eficiente que la otra función, pero para matrices de mayor tamaño se comportan prácticamente iguales.
 
-	Algo que se puede notar de los últimos 3 gráficos es que por lo general utilizar “overwrite=True”, vuelve la función más eficiente pues esto te permite sobrescribir datos.
+==>	Algo que se puede notar de los últimos 3 gráficos es que por lo general utilizar “overwrite=True”, vuelve la función más eficiente pues esto te permite sobrescribir datos.
 
 ## Comparación del gráfico final obtenido (9 funciones)
 Para este análisis se toman en cuenta 5 corridas por función (se utilizan en el promedio).
