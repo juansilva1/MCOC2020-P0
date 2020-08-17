@@ -30,7 +30,7 @@ Para matrices de tamaño 100 <= N <= 10000:
 
 ### Grupo sym:
 
-
+![Grafico sym](https://user-images.githubusercontent.com/69159364/90395645-db5ddd00-e062-11ea-81a4-31d549412830.png)
 
 -	Por lo general las funciones “A_invB_spSolve_sym” y “A_invB_spSolve_sym_overwrite” son muy similares, siendo la que utiliza “overwrite=True” levemente más eficiente.
 
