@@ -10,7 +10,7 @@ Procederé a ser una comparación más en detalle, primero comparando por grupos
 
 ### Grupo inv, npSolve, spSolve;
 
-
+![Grafico inv_np_sp](https://user-images.githubusercontent.com/69159364/90395416-85893500-e062-11ea-8efa-72bffd17da35.png)
 
 Para matrices de tamaño N < 100:
 -	La función que resuelve el problema de forma más eficiente es “A_invB_npSolve”, mientras que la más ineficiente es “A_invB_spSolve”.
