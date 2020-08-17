@@ -24,7 +24,7 @@ Para matrices de tamaño 100 <= N <= 10000:
 
 ### Grupo gen:
 
-
+![Grafico gen](https://user-images.githubusercontent.com/69159364/90395390-7a360980-e062-11ea-94a1-87af3d79d6a6.png)
 
 -	Por lo general las funciones “A_invB_spSolve_gen” y “A_invB_spSolve_gen_overwrite” son muy similares, siendo la que utiliza “overwrite=True” levemente más eficiente.
 
