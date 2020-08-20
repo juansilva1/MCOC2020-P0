@@ -65,7 +65,8 @@
 ### Análisis por cada gráfico
 
 #### Matriz llena
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico Solve_Axb_llena](https://user-images.githubusercontent.com/69159364/90837126-155b0780-e31f-11ea-805c-61b1e63bedee.png)
 
 **Análisis**
 
