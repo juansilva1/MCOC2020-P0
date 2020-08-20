@@ -5,7 +5,9 @@
 ### Análisis por cada gráfico
 
 #### Matriz llena
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico Matmul_AB_llena](https://user-images.githubusercontent.com/69159364/90836993-c01ef600-e31e-11ea-84dd-b7d907bc3c74.png)
+ 
 
 **Análisis**
 
