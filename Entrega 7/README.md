@@ -124,7 +124,8 @@
 ### Análisis por cada gráfico
 
 #### Matriz llena
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico inv_A_llena](https://user-images.githubusercontent.com/69159364/90837218-68cd5580-e31f-11ea-924d-cd79af1dc414.png)
 
 **Análisis**
 
