@@ -80,7 +80,8 @@
 - Al menos para matrices de tamaño N menores a 250 son bastante diferentes entre sí, pasado este punto, las corridas se comportan prácticamente de la misma forma.
 
 #### Matriz dispersa
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico Solve_Axb_dispersa](https://user-images.githubusercontent.com/69159364/90837178-3ae81100-e31f-11ea-8bd7-725d3c2fb0f6.png)
 
 **Análisis**
 
