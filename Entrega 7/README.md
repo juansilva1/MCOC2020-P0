@@ -21,7 +21,8 @@
 - Al menos para matrices pequeñas, no se parecen todas.
 
 #### Matriz dispersa
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico Matmul_AB_dispersa](https://user-images.githubusercontent.com/69159364/90837063-e8a6f000-e31e-11ea-9b5a-d4a7e8a07bbb.png)
 
 **Análisis**
 
