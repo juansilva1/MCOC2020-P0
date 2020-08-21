@@ -139,7 +139,8 @@
 - Al menos para matrices de tamaño N menores a 1000 son bastante diferentes entre sí, pasado este punto, las corridas se comportan de forma muy similar.
 
 #### Matriz dispersa
->>>>>>>>>>>>>>>> Grafico 
+
+![Grafico inv_A_dispersa](https://user-images.githubusercontent.com/69159364/90837257-8a2e4180-e31f-11ea-83c1-e50b472572b8.png)
 
 **Análisis**
 
@@ -211,3 +212,8 @@ En el caso de la segunda función creada, **no** se rellenan los espacios con ce
 Para matrices con gran cantidad de “ceros” y que sean relativamente grandes (N > 8000), conviene utilizar matrices dispersas, pues se logra un mejor desempeño y la complejidad del algoritmo desciende significativamente.
 
 Lo anterior se analizo para matrices Laplacianas, para matrices que no tengan una gran cantidad de “ceros”, el código tiene a ser un poco más ineficiente.
+
+#### Extra
+*Además de este README.md voy a subir imágenes del uso de memoria y los procesadores durante la ejecución del programa.*
+
+*Por supuesto también va incluido el código empleado, el cual es solo 1 archivo, el cual te genera 5 archivos de texto por cada gráfico, les agrega datos, los lee y posteriormente grafica los resultados, así todo queda guardado en el mismo sitio.*
