@@ -202,7 +202,7 @@ def M_laplaz_dispersas(N):# No se si son estrictamente cuadradas
     
     return matriz+matriz_up+matriz_down
 ```
-### Elección de código y su repercusión en el desempeño y complejidad algorítmica
+### Elección del código y su repercusión en el desempeño y complejidad algorítmica
 El paso de la creación de matrices es el que define que tan eficiente va a ser tu código (para matrices relativamente grandes).
 
 En el caso de la primera función creada, se rellenan todos los “espacios” por así decirlo, incluso los que tienen 0, que en matrices Laplacianas son la mayor parte de los elementos, posteriormente se muchas hacen operaciones que obviamente son 0. Por ejemplo, la multiplicación de matrices.
